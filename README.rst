@@ -59,6 +59,14 @@ Run the tests:
 
     $ python3 -m pytest
 
+Releasing to PyPI
+-----------------
+
+.. code:: shell
+
+	$ python3 setup.py sdist
+	$ twine upload dist/*
+
 License
 -------
 
