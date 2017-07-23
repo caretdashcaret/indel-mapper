@@ -40,7 +40,7 @@ $ python3 -m unittest
 Example:
 
 ```shell
-$ python3 run.py -a ~/Documents/bowtie2_results.sam -r ~/Documents/references.csv -o ~/Documents/results.csv -m
+$ python3 indel-mapper.py -a ~/Documents/bowtie2_results.sam -r ~/Documents/references.csv -o ~/Documents/results.csv -m
 ```
 
 There are three required arguments:
