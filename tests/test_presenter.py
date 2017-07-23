@@ -1,8 +1,8 @@
 import unittest
-from .read import Read
-from .alignment import Alignment
-from .reference import Reference
-from .presenter import Presenter
+from indel_mapper_lib.read import Read
+from indel_mapper_lib.alignment import Alignment
+from indel_mapper_lib.reference import Reference
+from indel_mapper_lib.presenter import Presenter
 
 class TestPresenter(unittest.TestCase):
 

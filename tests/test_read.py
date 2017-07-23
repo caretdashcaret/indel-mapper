@@ -1,5 +1,5 @@
 import unittest
-from .read import Read
+from indel_mapper_lib.read import Read
 
 
 class TestRead(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import patch
-from .sam_parser import SamParser
+from indel_mapper_lib.sam_parser import SamParser
 
 
 class TestSamParser(unittest.TestCase):

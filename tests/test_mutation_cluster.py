@@ -1,6 +1,6 @@
 import unittest
-from .alignment import Alignment
-from .mutation_cluster import MutationCluster
+from indel_mapper_lib.alignment import Alignment
+from indel_mapper_lib.mutation_cluster import MutationCluster
 
 class TestMutationCluster(unittest.TestCase):
 

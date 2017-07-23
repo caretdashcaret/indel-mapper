@@ -1,8 +1,8 @@
 import unittest
-from .cas9_indicator_inserter import Cas9IndicatorInserter
-from .read import Read
-from .reference import Reference
-from .presenter import Presenter
+from indel_mapper_lib.cas9_indicator_inserter import Cas9IndicatorInserter
+from indel_mapper_lib.read import Read
+from indel_mapper_lib.reference import Reference
+from indel_mapper_lib.presenter import Presenter
 
 class TestCas9IndicatorInserter(unittest.TestCase):
 

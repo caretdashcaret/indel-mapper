@@ -1,5 +1,5 @@
 import unittest
-from .read_reference_relationship import ReadReferenceRelationship
+from indel_mapper_lib.read_reference_relationship import ReadReferenceRelationship
 
 class TestReadReferenceRelationship(unittest.TestCase):
 

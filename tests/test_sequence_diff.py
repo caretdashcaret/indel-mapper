@@ -1,10 +1,10 @@
 import unittest
 
-from .sequence_diff import SequenceDiff
-from .diff_components import DiffDeletion
-from .diff_components import DiffInsertion
-from .diff_components import DiffMatch
-from .diff_components import DiffMutation
+from indel_mapper_lib.sequence_diff import SequenceDiff
+from indel_mapper_lib.diff_components import DiffDeletion
+from indel_mapper_lib.diff_components import DiffInsertion
+from indel_mapper_lib.diff_components import DiffMatch
+from indel_mapper_lib.diff_components import DiffMutation
 
 
 class TestSequenceDiff(unittest.TestCase):

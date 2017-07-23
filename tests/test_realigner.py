@@ -1,6 +1,6 @@
 import unittest
-from .realigner import Realigner
-from .alignment import Alignment
+from indel_mapper_lib.realigner import Realigner
+from indel_mapper_lib.alignment import Alignment
 
 class TestRealigner(unittest.TestCase):
     def assert_realignment(self, input_pair, output_pair):

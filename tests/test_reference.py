@@ -1,7 +1,7 @@
 import unittest
-from .reference import Reference
-from .indel import Indel
-from .read import Read
+from indel_mapper_lib.reference import Reference
+from indel_mapper_lib.indel import Indel
+from indel_mapper_lib.read import Read
 
 
 class TestReference(unittest.TestCase):

@@ -1,5 +1,5 @@
 import unittest
-from .alignment import Alignment
+from indel_mapper_lib.alignment import Alignment
 
 class TestAlignment(unittest.TestCase):
     def test_equality(self):

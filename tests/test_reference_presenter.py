@@ -1,6 +1,6 @@
 import unittest
-from .reference import Reference
-from .reference_presenter import ReferencePresenter
+from indel_mapper_lib.reference import Reference
+from indel_mapper_lib.reference_presenter import ReferencePresenter
 
 class TestReferencePresenter(unittest.TestCase):
 

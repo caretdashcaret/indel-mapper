@@ -1,6 +1,6 @@
 import unittest
-from .reference_parser import ReferenceParser
-from .read import Read
+from indel_mapper_lib.reference_parser import ReferenceParser
+from indel_mapper_lib.read import Read
 
 
 class TestReferenceParser(unittest.TestCase):

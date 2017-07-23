@@ -1,2 +1,4 @@
 .indel-mapper
-indel_mapper_lib/__pycache__
+__pycache__
+*.pyc
+.cache

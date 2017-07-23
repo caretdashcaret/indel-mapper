@@ -1,5 +1,5 @@
 import unittest
-from .sequence import Sequence
+from indel_mapper_lib.sequence import Sequence
 
 
 class TestSequence(unittest.TestCase):
