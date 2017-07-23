@@ -18,7 +18,16 @@ def get_args():
 
     return parser.parse_args()
 
-def main(args):
+def main(args=None):
+    """ The main entry point to indel-mapper.
+
+    This is installed as the script entry point
+
+    """
+
+    if args is None:
+        args = get_args()
+
     reference_name_to_reads = SamParser(pysam.AlignmentFile(args.alignment, "rb")).reference_name_to_reads_dict()
     references = ReferenceParser(csv.reader(open(args.reference)), reference_name_to_reads).references()
     presenter_results = Presenter([reference for reference in references if reference.is_valid]).present()
